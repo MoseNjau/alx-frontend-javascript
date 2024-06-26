@@ -1,1 +1,1 @@
-0x00. ES6 Basics
+# Goes throught the es6 syntax and features.
