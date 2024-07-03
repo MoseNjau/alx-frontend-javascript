@@ -1,3 +1,3 @@
-export function getStudentIdsSum(students) {
-    return students.reduce((student, sum) => sum += student.id, 0)
+export default function getStudentIdsSum(studentList) {
+  return studentList.reduce((total, student) => total += student.id, 0); // eslint-disable-line
 }
